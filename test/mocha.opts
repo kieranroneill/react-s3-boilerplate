@@ -1,0 +1,8 @@
+--compilers js:babel-core/register,jsx:babel-core/register
+--extensions js,jsx
+--full-trace
+--require test/setup.js
+--recursive
+--reporter mocha-multi-reporters
+--reporter-options configFile=test/reporter.config.json
+--timeout 15000

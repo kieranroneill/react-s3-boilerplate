@@ -1,0 +1,9 @@
+@mixin primary-font {
+    font-family: 'Arial', sans-serif;
+}
+
+@mixin primary-font-regular {
+    @include primary-font;
+    font-style: normal;
+    font-weight: 400;
+}

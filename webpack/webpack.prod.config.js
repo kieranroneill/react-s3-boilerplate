@@ -45,7 +45,6 @@ module.exports = {
         main: path.resolve(srcPath, 'index.jsx'),
         vendor: [
             // Rule of thumb: add any vendor files that are > 50kb
-            'moment',
             'react',
             'react-dom',
             'react-router-dom'

@@ -1,0 +1,51 @@
+@import "../modules/typography";
+
+@mixin full-size {
+    height: 100%;
+    width: 100%;
+}
+
+// Z-index.
+@for $i from 0 to 10 {
+    .zIndex-#{$i} {
+        z-index: $i;
+    }
+}
+
+// Global elements.
+html,
+body,
+#root,
+main {
+    @include full-size;
+    margin: 0;
+}
+
+.fullSize {
+    @include full-size;
+}
+
+// Outer elements.
+html {
+    @include primary-font-regular;
+    font-size: 100%;
+}
+
+// Fonts.
+h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.6rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+}
