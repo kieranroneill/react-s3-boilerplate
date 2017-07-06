@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/youviewtv/youview-chromecast-receiver-app/tree/master.svg?style=shield&circle-token=0c767410fcf60f67444e2570839170de9a0fa7a5)](https://circleci.com/gh/youviewtv/youview-chromecast-receiver-app/tree/master)
+[![CircleCI](https://circleci.com/gh/kieranroneill/react-s3-boilerplate/tree/master.svg?style=shield)](https://circleci.com/gh/kieranroneill/react-s3-boilerplate/tree/master)
 
-# React/S3 application
+# React/S3 Application
 
 Boilerplate code for building a frontend React application that is statically served from an S3 bucket.
 
